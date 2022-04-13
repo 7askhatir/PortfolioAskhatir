@@ -1,0 +1,36 @@
+.specialite{
+    margin:0px 10%;
+    .title{
+        font-size: 60px;
+        color: white;
+    }
+    .allCard{
+        display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+       .card{
+        height: 350px;
+        width: 290px;
+        margin:30px auto;
+        background-color: #362880;
+        border-radius: 3%;
+        .cercle{
+            margin: 20px auto ;
+            height: 180px;
+            width: 180px;
+            background-color: #FF8553;
+            border-radius:50%;
+        }
+        span{
+            font-size: 24px;
+            color: white;
+        }
+        p{
+            margin: auto;
+            color: white;
+            font-size: 14px;
+        }
+    } 
+    }
+    
+}

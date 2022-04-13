@@ -1,0 +1,50 @@
+.cont{
+    margin-top: 100px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   flex-wrap: wrap;
+    .div{
+        margin-top: 40px;
+        height: 200px;
+        width: 300px;
+        div{
+            color: white;
+        }
+    }
+
+}
+.div{
+
+    &:hover{
+        background-color: rgba(255, 255, 255, 0.75);
+        border-radius: 20%;
+       
+        cursor: pointer;
+        i{
+            color: #362880;
+        }
+        div{
+            h5{
+                color: black;
+            }
+            h3{
+                color: black;
+            }
+        }
+        
+     } 
+}
+.icon-contact{
+    
+    
+    display: flex;
+
+    i{
+        text-shadow:3px 6px rgba(76, 75, 72, 0.75);
+        margin: auto;
+        font-size:  60px;
+        color:white;
+       
+    }
+}
